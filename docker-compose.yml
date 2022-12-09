@@ -1,0 +1,16 @@
+version: "3"
+services:
+  pbbot_app_loginhelper:
+    image:  baicailin/pbbot_app_loginhelper
+    restart: always
+    # build: ./..
+    command: /app/pbbot_app_loginhelper -c=/app/conf/config.yaml
+    volumes:
+      - ./conf:/app/conf
+      - ./autocert:/app/autocert
+      - ./log:/app/log
+      # - /tmp:/app/log
+    # environment:
+    #   TZ: Asia/Shanghai
+    ports:
+      - "8081:8081"
