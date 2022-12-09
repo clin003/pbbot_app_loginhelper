@@ -33,14 +33,15 @@ echo "sudo docker push baicailin/${APPNAME}:latest" >> _sh_docker_build_push
 echo "sudo docker image ls" >> _sh_docker_build_push
 
 
-git init #
+#git init #
 git add .
 git commit -m "v${VERSION} debug"
-git remote add gitee git@gitee.com:lyhuilin/${APPNAME}.git #
-git remote add github git@github.com:clin003/${APPNAME}.git #
-git branch -M main #
+#git remote add gitee git@gitee.com:lyhuilin/${APPNAME}.git #
+#git remote add github git@github.com:clin003/${APPNAME}.git #
+#git branch -M main #
 git push -u gitee main
 git push -u github main
 git tag "v${VERSION}"
 git push --tags  -u github main
 git push --tags  -u gitee main
+git remote -v
