@@ -14,10 +14,6 @@ import (
 
 var mux sync.RWMutex
 
-// var feedGroupList map[int64]bool
-// var toGroupList map[int64]bool
-// var botIdList map[int64]bool
-
 func getPathConf() (retText string) {
 	path := filepath.Join(util.Getwd())
 	if !util.IsExist(path) {
@@ -27,11 +23,6 @@ func getPathConf() (retText string) {
 	return path
 }
 func Init_Conf() {
-	// mux.Lock()
-	// defer mux.Unlock()
-	// feedGroupList = make(map[int64]bool, 0)
-	// toGroupList = make(map[int64]bool, 0)
-	// botIdList = make(map[int64]bool, 0)
 	path := getPathConf()
 	if !util.IsExist(path) {
 		LoginJsonCreate()

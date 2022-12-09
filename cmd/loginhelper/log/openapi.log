@@ -28,3 +28,4 @@
 {"level":"INFO","timestamp":"2022-12-10 01:33:00.431","file":"loginhelper/main.go:60","msg":"(pbbot_app_loginhelper)成功部署，服务地址:http://127.0.0.1:8081"}
 {"level":"INFO","timestamp":"2022-12-10 01:34:45.583","file":"loginhelper/main.go:60","msg":"(pbbot_app_loginhelper)成功部署，服务地址:http://127.0.0.1:8081"}
 {"level":"INFO","timestamp":"2022-12-10 01:37:53.834","file":"loginhelper/main.go:60","msg":"(pbbot_app_loginhelper)成功部署，服务地址:http://127.0.0.1:8081"}
+{"level":"INFO","timestamp":"2022-12-10 01:46:42.131","file":"loginhelper/main.go:60","msg":"(pbbot_app_loginhelper)成功部署，服务地址:http://127.0.0.1:8081"}
