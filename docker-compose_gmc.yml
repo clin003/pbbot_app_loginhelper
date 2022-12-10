@@ -14,9 +14,8 @@ services:
       TZ: Asia/Shanghai
     networks:
       - gmc_net
-      # - gmc_default
     # ports:
-    #   - "7005:8081"
+    #   - "8081:8081"
   gmc:
     image:  baicailin/gmc
     restart: always
@@ -30,7 +29,7 @@ services:
     networks:
       - gmc_net      
     ports:
-      - "7000:9000"
+      - "9000:9000"
 
 # docker network create gmc_net
 networks:

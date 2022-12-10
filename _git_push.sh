@@ -41,7 +41,7 @@ git commit -m "v${VERSION} debug"
 #git branch -M main #
 git push -u gitee main
 git push -u github main
-git tag "v${VERSION}"
-git push --tags  -u github main
-git push --tags  -u gitee main
-git remote -v
+#git tag "v${VERSION}"
+#git push --tags  -u github main
+#git push --tags  -u gitee main
+#git remote -v
