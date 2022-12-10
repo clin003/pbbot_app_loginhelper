@@ -1,6 +1,9 @@
 pbbot_app_loginhelper
 
 # pbbot_app_loginhelper
+## 源码托管
+[gitee baicailin/pbbot_app_loginhelper](https://gitee.com/lyhuilin/pbbot_app_loginhelper)
+[github baicailin/pbbot_app_loginhelper](https://github.com/clin003/pbbot_app_loginhelper)
 
 ## 使用说明
 
@@ -157,7 +160,7 @@ networks:
 http://gmc:9000
 ```
 
-### 参考
+### 相关项目
 
 [GMC](https://github.com/2mf8/Go-Mirai-Client/releases)
-[GMCLoginHelper]()
+[GMCLoginHelper](https://github.com/2mf8/GMCLoginHelper)
