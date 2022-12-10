@@ -87,9 +87,9 @@ log:
 
 ##	Docker 使用方法
 [baicailin/pbbot_app_loginhelper](https://hub.docker.com/r/baicailin/pbbot_app_loginhelper)
-
+```
 docker pull baicailin/pbbot_app_loginhelper
-
+```
 配置方法参考上面的。
 
 ### 独立插件模式
