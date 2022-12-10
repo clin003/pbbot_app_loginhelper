@@ -19,7 +19,7 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 	wserver := g.Group("/ws")
 	{
 		wserver.GET("/rq/", pbbot_wsserver.PbBotWs)
-		wserver.GET("/cq/", pbbot_wsserver.PbBotWs)
+		// wserver.GET("/cq/", pbbot_wsserver.PbBotWs)
 	}
 
 	return g

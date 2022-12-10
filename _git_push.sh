@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=0.0.6
+VERSION=0.0.7
 APPNAME=pbbot_app_loginhelper
 echo "package constvar" > ./pkg/constvar/version.go
 echo "const(APP_NAME = \"${APPNAME}\"" >> ./pkg/constvar/version.go
@@ -41,7 +41,7 @@ git commit -m "v${VERSION} debug"
 #git branch -M main #
 git push -u gitee main
 git push -u github main
-#git tag "v${VERSION}"
-#git push --tags  -u github main
-#git push --tags  -u gitee main
-#git remote -v
+git tag "v${VERSION}"
+git push --tags  -u github main
+git push --tags  -u gitee main
+git remote -v

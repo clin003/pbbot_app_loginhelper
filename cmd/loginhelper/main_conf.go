@@ -2,9 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"pbbot_app_loginhelper/pkg/dto"
-
 	"path/filepath"
+	"pbbot_app_loginhelper/pkg/dto"
 	"sync"
 	"time"
 
@@ -61,7 +60,7 @@ func LoginJsonCreate() {
 	logins.Logins = append(logins.Logins, login)
 	logins.Logins = append(logins.Logins, login)
 	logins.ServerURL = "http://127.0.0.1:9000"
-	logins.CheckSleep = 10 * time.Minute
+	logins.CheckSleep = 30 * time.Minute
 
 	outBody, err := json.MarshalIndent(&logins, "", "\t")
 	if err != nil {
