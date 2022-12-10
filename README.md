@@ -5,6 +5,11 @@ pbbot_app_loginhelper
 [gitee baicailin/pbbot_app_loginhelper](https://gitee.com/lyhuilin/pbbot_app_loginhelper)
 [github baicailin/pbbot_app_loginhelper](https://github.com/clin003/pbbot_app_loginhelper)
 
+## 镜像地址
+[docker baicailin/pbbot_app_loginhelper](https://hub.docker.com/r/baicailin/pbbot_app_loginhelper)
+```
+docker pull baicailin/pbbot_app_loginhelper
+```
 ## 使用说明
 
 pbbot_app_loginhelper 可用于 [GMC](https://hub.docker.com/r/baicailin/gmc) 的多账户快速登录，需配合 GMC 使用 （该程序用于GMC非首次登录）
