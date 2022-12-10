@@ -1,0 +1,43 @@
+version: "3"
+services:
+  pbbot_app_loginhelper:
+    image:  baicailin/pbbot_app_loginhelper
+    restart: always
+    # build: ./..
+    command: /app/pbbot_app_loginhelper -c=/app/conf/config.yaml
+    volumes:
+      - ./conf:/app/conf
+      - ./autocert:/app/autocert
+      #- ./log:/app/log
+      - /tmp:/app/log
+    environment:
+      TZ: Asia/Shanghai
+    networks:
+      - gmc_net
+      # - gmc_default
+    # ports:
+    #   - "7005:8081"
+  gmc:
+    image:  baicailin/gmc
+    restart: always
+    # build: ./..
+    command: gmc
+    volumes:
+      - ./device:/data/device
+      - ./plugins:/data/plugins
+    environment:
+      TZ: Asia/Shanghai
+    networks:
+      - gmc_net      
+    ports:
+      - "7000:9000"
+
+# docker network create gmc_net
+networks:
+  gmc_net:
+    driver: bridge
+#
+# # sudo docker network ls
+# networks:
+#   gmc_default:
+#     external: true

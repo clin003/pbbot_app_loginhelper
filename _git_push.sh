@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=0.0.2
+VERSION=0.0.3
 APPNAME=pbbot_app_loginhelper
 echo "package constvar" > ./pkg/constvar/version.go
 echo "const(APP_NAME = \"${APPNAME}\"" >> ./pkg/constvar/version.go
