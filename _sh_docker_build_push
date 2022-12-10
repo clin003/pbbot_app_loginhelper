@@ -4,12 +4,12 @@
 #sudo docker image prune -af
 #sudo docker system prune -af
 curl -o cacert.pem https://curl.se/ca/cacert.pem
-sudo docker build -t baicailin/pbbot_app_loginhelper:v0.0.5 .
+sudo docker build -t baicailin/pbbot_app_loginhelper:v0.0.6 .
 sudo docker image ls
 echo "--------------------->"
-echo "--------------------->push pbbot_app_loginhelper:v0.0.5"
-sudo docker push baicailin/pbbot_app_loginhelper:v0.0.5
-sudo docker tag baicailin/pbbot_app_loginhelper:v0.0.5 baicailin/pbbot_app_loginhelper:latest
+echo "--------------------->push pbbot_app_loginhelper:v0.0.6"
+sudo docker push baicailin/pbbot_app_loginhelper:v0.0.6
+sudo docker tag baicailin/pbbot_app_loginhelper:v0.0.6 baicailin/pbbot_app_loginhelper:latest
 sudo docker image ls
 echo "--------------------->"
 echo "--------------------->push pbbot_app_loginhelper:latest"
