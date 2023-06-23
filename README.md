@@ -169,3 +169,8 @@ http://gmc:9000
 
 [GMC](https://github.com/2mf8/Go-Mirai-Client/releases)
 [GMCLoginHelper](https://github.com/2mf8/GMCLoginHelper)
+
+## 赞赏
+![赞赏白菜林，多少不重要，1元也是支持](https://cdn.jsdelivr.net/gh/clin003/cdn/assets/images/zanalipay.jpg)
+
+![赞赏白菜林，多少不重要，1元也是支持](https://cdn.jsdelivr.net/gh/clin003/cdn/assets/images/zanweixin.jpg)
